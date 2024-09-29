@@ -359,4 +359,9 @@ text-shadow: 2px 2px blue;
     100% { background-position: 0 0; }
 }
 
+.clock .display {
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
